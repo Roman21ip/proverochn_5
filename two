@@ -1,0 +1,5 @@
+w, h = map(float, input().split())
+
+a = w / (h * h)
+
+print(f"результат: {a:.1f}")
