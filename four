@@ -1,0 +1,14 @@
+def calculate_rectangle_area(width, height):
+    S = width * height
+    return S
+
+def calculate_circle_area(radius):
+
+    PI = 3.14
+    S = PI * (radius**2)
+    return S
+
+aa, bb = map(int, input().split())
+a = calculate_rectangle_area(aa, bb)
+c = calculate_circle_area(int(input("введите радиус ")))
+print(f"площадь треугольника: {a}, площаь круга: {c}")
