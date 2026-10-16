@@ -1,0 +1,7 @@
+def convert_usd_to_rub(amount_usd):
+    
+    amount_usd = int(input())  #берет доллары
+    b = amount_usd * 95.50  #переводит в рубли
+    return b
+c = convert_usd_to_rub(100)
+print(f"рубли: {c}")
